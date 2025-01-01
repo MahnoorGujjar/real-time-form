@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Form Submission</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Form Example</h1>
+
+      
+        <form id="myForm">
+            <label for="name">Name
+                <input type="text" placeholder="Enter Your Name" id="name">
+            </label>
+
+            <br>
+
+            <label for="email">Email
+                <input type="email" placeholder="Enter Your Email" id="email">
+            </label>
+
+            <br>
+
+            <label for="message">Message
+                <input type="text" placeholder="Type Your Message" id="message">
+            </label>
+
+            <br>
+
+            <!-- Submit Button -->
+            <button type="button" id="submitBtn">Click to Submit</button>
+        </form>
+
+        <!-- Display the submitted details here -->
+        <p id="output"></p>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
