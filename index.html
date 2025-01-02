@@ -1,45 +1,38 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
-    <title>Form Submission</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Real Time Form Example</title>
 </head>
 <body>
-
+    
+   
     <div class="container">
-        <h1>Form Example</h1>
 
-      
+        <h1>REAL TIME FORM EXAMPLE</h1>
+    
         <form id="myForm">
-            <label for="name">Name
-                <input type="text" placeholder="Enter Your Name" id="name">
+            <label for="name">NAME
+                <input type="text" placeholder="Enter your name" id="name" required> 
             </label>
 
-            <br>
-
-            <label for="email">Email
-                <input type="email" placeholder="Enter Your Email" id="email">
+            <label for="email">EMAIL
+                <input type="email" placeholder="Enter your email" id="email" required>
             </label>
 
-            <br>
-
-            <label for="message">Message
-                <input type="text" placeholder="Type Your Message" id="message">
+            <label for="message">MESSAGE
+                <input type="text" placeholder="Type your message" id="message" required>
             </label>
-
-            <br>
-
-            <!-- Submit Button -->
-            <button type="button" id="submitBtn">Click to Submit</button>
         </form>
 
-        <!-- Display the submitted details here -->
-        <p id="output"></p>
-    </div>
+        <!-- Add an ID to the submit button -->
+        <button id="submitBtn">Click to Submit</button>
 
-    <script src="./script.js"></script>
+        <p id="output"></p>
+    </div> 
+
+    <script src="script.js"></script>
 </body>
 </html>
